@@ -1,14 +1,14 @@
 # Sql-Data Analytics Project
 
 1.	Create Database and Schemas
-/*=======================================================================/*
+/*===============================================================/*
 Database Exploration
 Table Used:
     - INFORMATION_SCHEMA.TABLES
     - INFORMATION_SCHEMA.COLUMNS
-==============================================================================
-2.	Dimensions Exploration
-==============================================================================
+2.	/*============================================================/*
+3.	Dimensions Exploration
+4.	/*============================================================/*
 Purpose:
     - To explore the structure of dimension tables.
 	
@@ -16,7 +16,7 @@ SQL Functions Used:
     - DISTINCT
     - ORDER BY
   3.   Date Range Exploration 
-==============================================================================
+1.	/*============================================================/*
 Purpose:
     - To determine the temporal boundaries of key data points.
     - To understand the range of historical data.
@@ -24,7 +24,7 @@ Purpose:
 SQL Functions Used:
     - MIN(), MAX(), DATEDIFF()
  4.  Measures Exploration (Key Metrics)
-==============================================================================
+1.	/*============================================================/*
 Purpose:
     - To calculate aggregated metrics (e.g., totals, averages) for quick insights.
     - To identify overall trends or spot anomalies.
@@ -32,7 +32,7 @@ Purpose:
 SQL Functions Used:
     - COUNT(), SUM(), AVG()
 5.  Magnitude Analysis
-==============================================================================
+1.	/*============================================================/*
 Purpose:
     - To quantify data and group results by specific dimensions.
     - For understanding data distribution across categories.
@@ -41,7 +41,7 @@ SQL Functions Used:
     - Aggregate Functions: SUM(), COUNT(), AVG()
     - GROUP BY, ORDER BY
 6.  Ranking Analysis
-==============================================================================
+1.	/*============================================================/*
 Purpose:
     - To rank items (e.g., products, customers) based on performance or other metrics.
     - To identify top performers or laggards.
@@ -50,7 +50,7 @@ SQL Functions Used:
     - Window Ranking Functions: RANK(), DENSE_RANK(), ROW_NUMBER(), TOP
     - Clauses: GROUP BY, ORDER BY
 7.  Change Over Time Analysis
-==============================================================================
+1.	/*============================================================/*
 Purpose:
     - To track trends, growth, and changes in key metrics over time.
     - For time-series analysis and identifying seasonality.
@@ -60,7 +60,7 @@ SQL Functions Used:
     - Date Functions: DATEPART(), DATETRUNC(), FORMAT()
     - Aggregate Functions: SUM(), COUNT(), AVG()
 8.  Cumulative Analysis
-==============================================================================
+1.	/*============================================================/*
 Purpose:
     - To calculate running totals or moving averages for key metrics.
     - To track performance over time cumulatively.
@@ -69,7 +69,7 @@ Purpose:
 SQL Functions Used:
     - Window Functions: SUM() OVER(), AVG() OVER()
 9.  Performance Analysis (Year-over-Year, Month-over-Month)
-==============================================================================
+1.	/*============================================================/*
 Purpose:
     - To measure the performance of products, customers, or regions over time.
     - For benchmarking and identifying high-performing entities.
@@ -80,7 +80,7 @@ SQL Functions Used:
     - AVG() OVER(): Computes average values within partitions.
     - CASE: Defines conditional logic for trend analysis.
 10.  Data Segmentation Analysis
-==============================================================================
+1.	/*============================================================/*
 Purpose:
     - To group data into meaningful categories for targeted insights.
     - For customer segmentation, product categorization, or regional analysis.
@@ -89,7 +89,7 @@ SQL Functions Used:
     - CASE: Defines custom segmentation logic.
     - GROUP BY: Groups data into segments.
 11.  Part-to-Whole Analysis
-==============================================================================
+1.	/*============================================================/*
 Purpose:
     - To compare performance or metrics across dimensions or time periods.
     - To evaluate differences between categories.
@@ -98,9 +98,9 @@ Purpose:
 SQL Functions Used:
     - SUM(), AVG(): Aggregates values for comparison.
     - Window Functions: SUM() OVER() for total calculations.
-==============================================================================
+1.	/*============================================================/*
 12.  Customer Report
-==============================================================================
+1.	/*============================================================/*
 Purpose:
     - This report consolidates key customer metrics and behaviors
 
@@ -118,7 +118,7 @@ Highlights:
 		- average order value
 		- average monthly spend
 13.  Product Report
-==============================================================================
+1.	/*============================================================/*
 Purpose:
     - This report consolidates key product metrics and behaviors.
 
@@ -135,5 +135,4 @@ Highlights:
        - recency (months since last sale)
        - average order revenue (AOR)
        - average monthly revenue
-==============================================================================
-
+1.	/*============================================================/*
